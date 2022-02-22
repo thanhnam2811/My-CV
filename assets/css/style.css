@@ -223,6 +223,16 @@ a.text-link:hover {
 #nav .nav-item {
   display: inline;
   font-size: 20px;
+  padding:  16px;
+}
+
+#nav .nav-text{
+  color: green;
+  font-weight: bold;
+}
+
+#nav .nav-text:hover{
+  color: rgba(0, 100, 0, 0.6);
 }
 
 /* Content */

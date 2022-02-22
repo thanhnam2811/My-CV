@@ -21,25 +21,25 @@
             <!-- Nav -->
             <div id="nav" class="col">
                 <div class="nav-item">
-                    <a class="js-nav-btn btn active" href="#about-me">Thông tin cá nhân</a>
+                    <a class="nav-text" href="#about-me">Thông tin cá nhân</a>
                 </div>
                 <div class="nav-item">
-                    <a class="js-nav-btn btn" href="#education-level">Học vấn</a>
+                    <a class="nav-text" href="#education-level">Học vấn</a>
                 </div>
                 <div class="nav-item">
-                    <a class="js-nav-btn btn" href="#programing-lang">Ngôn ngữ Lập trình</a>
+                    <a class="nav-text" href="#programing-lang">Ngôn ngữ Lập trình</a>
                 </div>
                 <div class="nav-item">
-                    <a class="js-nav-btn btn" href="#my-projects">Các dự án</a>
+                    <a class="nav-text" href="#my-projects">Các dự án</a>
                 </div>
                 <div class="nav-item">
-                    <a class="js-nav-btn btn" href="#my-skills">Kỹ năng</a>
+                    <a class="nav-text" href="#my-skills">Kỹ năng</a>
                 </div>
                 <div class="nav-item">
-                    <a class="js-nav-btn btn" href="#my-experiences">Kinh nghiệm</a>
+                    <a class="nav-text" href="#my-experiences">Kinh nghiệm</a>
                 </div>
                 <div class="nav-item">
-                    <a class="js-nav-btn btn" href="#career-objectives">Mục tiêu nghề nghiệp</a>
+                    <a class="nav-text" href="#career-objectives">Mục tiêu nghề nghiệp</a>
                 </div>
             </div>
 
@@ -517,23 +517,6 @@
     </div>
 
     <!-- Script -->
-
-    <!-- Click navigation -->
-    <script>
-        const navBtns = document.querySelectorAll('.js-nav-btn');
-
-        function handleNavClick(e) {
-            for (navBtn of navBtns) {
-                navBtn.classList.remove('active');
-            }
-
-            e.target.classList.add('active');
-        }
-
-        for (navBtn of navBtns) {
-            navBtn.addEventListener('click', e => handleNavClick(e))
-        }
-    </script>
 
     <!-- End Script -->
 </body>
