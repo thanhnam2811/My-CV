@@ -320,6 +320,15 @@ a.text-link:hover {
   width: 100%;
 }
 
+.col-list-item-detail p{
+  margin-left: 16px;
+  padding: 16px 0;
+}
+
+.col-list-item-detail p i{
+  color: green;
+}
+
 @keyframes scale-X {
   from {
     opacity: 0;

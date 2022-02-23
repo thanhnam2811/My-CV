@@ -27,7 +27,7 @@
                     <a class="nav-text" href="#education-level">Học vấn</a>
                 </div>
                 <div class="nav-item">
-                    <a class="nav-text" href="#programing-lang">Ngôn ngữ Lập trình</a>
+                    <a class="nav-text" href="#knowledge">Kiến thức</a>
                 </div>
                 <div class="nav-item">
                     <a class="nav-text" href="#my-projects">Các dự án</a>
@@ -73,7 +73,7 @@
                                     <i class="fa-solid fa-calendar"></i>Ngày sinh: 28 - 11 - 2001
                                 </li>
                                 <li class="p-tb-16">
-                                    <i class="fa-solid fa-location-dot"></i>Địa chỉ: ...
+                                    <i class="fa-solid fa-location-dot"></i>Địa chỉ: Thủ Đức, TP.HCM
                                 </li>
                             </ul>
                         </div>
@@ -82,17 +82,17 @@
                             <h3 class="h3-header p-tb-16">Liên hệ</h3>
                             <ul>
                                 <li>
-                                    <a href="#" class="btn">
+                                    <a href="#" class="btn" onclick="openInNewTab('https://fb.com/thanhnam.thai2811')">
                                         <i class="fa-brands fa-facebook"></i>thanhnam.thai2811
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#" class="btn">
+                                    <a href="#" class="btn" onclick="copyThis(event)">
                                         <i class="fa-solid fa-envelope"></i>thanhnam.thai01@gmail.com
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#" class="btn">
+                                    <a href="#" class="btn" onclick="copyThis(event)">
                                         <i class="fa-solid fa-phone"></i>(+84) 98 177 1024
                                     </a>
                                 </li>
@@ -259,7 +259,7 @@
             <!-- End Education Level -->
 
             <!-- Programing languages -->
-            <div id="programing-lang" class="content-child">
+            <div id="knowledge" class="content-child">
                 <!-- Heading content -->
                 <div class="content-heading p-tb-16">
                     <h1 class="text-center p-tb-16">Ngôn ngữ Lập trình</h1>
@@ -271,145 +271,34 @@
                     <!-- List Programing Language  -->
                     <ul class="col-list">
                         <li>
-                            <a href="#programing-lang" class="col-list-item primary-text">
-                                <i class="fa-brands fa-python"></i>
-                                Python
+                            <a href="#knowledge" class="col-list-item primary-text" id="programing-language">
+                                Ngôn ngữ đã học
                             </a>
 
-                            <div class="box-container pull-right col-list-item-detail">
+                            <div class="box-container pull-right col-list-item-detail" id="programing-language-detail">
                                 <div class="text-center">
                                     <h3 class="primary-text col-list-item-detail-heading">
-                                        <i class="fa-brands fa-python"></i>
-                                        Python
+                                        Ngôn ngữ đã học
                                     </h3>
                                 </div>
-                                <p>-</p>
-                                <p>-</p>
-                                <p>-</p>
-                                <p>-</p>
-                                <p>-</p>
-                            </div>
-                        </li>
-                        <li>
-                            <a href="#programing-lang" class="col-list-item primary-text">
-                                <i class="fa-brands fa-java"></i>
-                                Java
-                            </a>
-
-                            <div class="box-container pull-right col-list-item-detail">
-                                <div class="text-center">
-                                    <h3 class="primary-text col-list-item-detail-heading">
-                                        <i class="fa-brands fa-java"></i>
-                                        Java
-                                    </h3>
-                                </div>
-                                <p>-</p>
-                                <p>-</p>
-                                <p>-</p>
-                                <p>-</p>
-                                <p>-</p>
-                            </div>
-                        </li>
-                        <li>
-                            <a href="#programing-lang" class="col-list-item primary-text">
-                                <i class="fa-solid fa-c"></i>
-                                C#
-                            </a>
-
-                            <div class="box-container pull-right col-list-item-detail">
-                                <div class="text-center">
-                                    <h3 class="primary-text col-list-item-detail-heading">
-                                        <i class="fa-solid fa-c"></i>
-                                        C#
-                                    </h3>
-                                </div>
-                                <p>-</p>
-                                <p>-</p>
-                                <p>-</p>
-                                <p>-</p>
-                                <p>-</p>
-                            </div>
-                        </li>
-                        <li>
-                            <a href="#programing-lang" class="col-list-item primary-text">
-                                <i class="fa-solid fa-c"></i>
-                                C, C++
-                            </a>
-
-                            <div class="box-container pull-right col-list-item-detail">
-                                <div class="text-center">
-                                    <h3 class="primary-text col-list-item-detail-heading">
-                                        <i class="fa-solid fa-c"></i>
-                                        C, C++
-                                    </h3>
-                                </div>
-                                <p>-</p>
-                                <p>-</p>
-                                <p>-</p>
-                                <p>-</p>
-                                <p>-</p>
-                            </div>
-                        </li>
-                        <li>
-                            <a href="#programing-lang" class="col-list-item primary-text">
-                                <i class="fa-brands fa-js-square"></i>
-                                JavaScript
-                            </a>
-
-                            <div class="box-container pull-right col-list-item-detail">
-                                <div class="text-center">
-                                    <h3 class="primary-text col-list-item-detail-heading">
-                                        <i class="fa-brands fa-js-square"></i>
-                                        JavaScript
-                                    </h3>
-                                </div>
-                                <p>-</p>
-                                <p>-</p>
-                                <p>-</p>
-                                <p>-</p>
-                                <p>-</p>
-                            </div>
-                        </li>
-                        <li>
-                            <a href="#programing-lang" class="col-list-item primary-text">
-                                <i class="fa-solid fa-database"></i>
-                                SQL
-                            </a>
-
-                            <div class="box-container pull-right col-list-item-detail">
-                                <div class="text-center">
-                                    <h3 class="primary-text col-list-item-detail-heading">
-                                        <i class="fa-solid fa-database"></i>
-                                        SQL
-                                    </h3>
-                                </div>
-                                <p>-</p>
-                                <p>-</p>
-                                <p>-</p>
-                                <p>-</p>
-                                <p>-</p>
-                            </div>
-                        </li>
-                        <li>
-                            <a href="#programing-lang" class="col-list-item primary-text">
-                                <i class="fa-brands fa-html5"></i>
-                                <i class="fa-brands fa-css3"></i>
-                                HTML, CSS
-                            </a>
-
-                            <div class="box-container pull-right col-list-item-detail">
-                                <div class="text-center">
-                                    <h3 class="primary-text col-list-item-detail-heading">
-                                        <i class="fa-brands fa-html5"></i>
-                                        <i class="fa-brands fa-css3"></i>
-                                        HTML, CSS
-                                    </h3>
-                                </div>
-                                <p>-</p>
-                                <p>-</p>
-                                <p>-</p>
-                                <p>-</p>
-                                <p>-</p>
+                                <p>
+                                    <i class="fa-brands fa-java"></i> Java
+                                </p>
+                                <p>
+                                    <i class="fa-solid fa-c"></i> C#
+                                </p>
+                                <p>
+                                    <i class="fa-solid fa-c"></i> C++
+                                </p>
+                                <p>
+                                    <i class="fa-solid fa-database"></i> SQL Server, MySQL
+                                </p>
+                                <p>
+                                    <i class="fa-brands fa-html5"></i> <i class="fa-brands fa-css3"></i> HTML5, CSS3
+                                </p>
+                                <p>
+                                    <i class="fa-brands fa-js-square"></i> JavaScript
+                                </p>
                             </div>
                         </li>
                     </ul>
@@ -517,7 +406,24 @@
     </div>
 
     <!-- Script -->
+    <script>
+        // Copy to clipboard
+        function copyThis(event) {
+            /* Get the text field */
+            var copyText = event.target.innerText;
 
+            /* Copy the text inside the text field */
+            navigator.clipboard.writeText(copyText);
+
+            /* Alert the copied text */
+            alert("Copied the text: " + copyText);
+        }
+
+        // Open URL in new tab
+        function openInNewTab(url) {
+            window.open(url, '_blank').focus();
+        }
+    </script>
     <!-- End Script -->
 </body>
 
